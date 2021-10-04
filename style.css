@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#topbar {
+  width: 1000px;
+  margin: 0 auto;
+  /* background-color: red; */
+  height: 40px;
+}
+
+#logo {
+  margin-top: 8px;
+  width: 100px;
+  float: left;
+  margin-right: 8px;
+}
+
+.topbar-section {
+  float: left;
+  border-left: 1px solid #cccccc;
+  height: 100%;
+}
+
+#signin-img {
+  width: 30px;
+  margin: 6px 8px;
+  margin-left: 10px;
+  float: left;
+}
+
+#signin-txt {
+  font-weight: bold;
+  font-size: 90%;
+  position: relative;
+  top: 12px;
+  padding-right: 50px;
+}
+
+#bell-icon {
+  margin: 12px 10px;
+}
+
+#bell-div {
+  float: left;
+}
+
+.topbar-menu {
+  font-weight: bold;
+  font-size: 90%;
+  padding: 13px 15px 0 15px;
+  height: 27px;
+}
+
+.down-angle {
+  margin-left: 15px;
+}
+
+#search-box {
+  width: 200px;
+  background-color: #a9a9a9;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px;
+  margin: 5px 0 5px 5px;
+}
+
+.icon {
+  transform: translateX(-30px);
+}
+
+.clear {
+  clear: both;
+}
+
+#menu-bar-container {
+  background-color: #881919;
+  width: 100%;
+  height: 70px;
+}
+
+#menu-bar {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+#local-news {
+  margin: 0 auto;
+  float: right;
+  width: 180px;
+  padding: 5px;
+  border: 1px solid #bb4545;
+  position: relative;
+  top: -40px;
+}
+
+#local-news a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#local-news a:hover {
+  text-decoration: underline;
+}
+
+.marker {
+  color: white;
+}
+
+#menu-bar-2-container {
+  background-color: #a91717;
+  width: 100%;
+  position: relative;
+  top: 14px;
+}
+
+#menu-bar-2 {
+  width: 1000px;
+  margin: 0 auto;
+  height: 30px;
+}
+
+#menu-bar-2 a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+  border-right: 1px solid #bb4545;
+  font-size: 10px;
+  position: relative;
+  top: 5px;
+}
+
+#menu-bar-2 a:hover {
+  text-decoration: underline;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.dwn-angle {
+  color: white;
+  position: relative;
+  top: 6px;
+}
+
+#page-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-weight: normal;
+  border-bottom: 2px solid #a91717;
+  width: 120px;
+}
+
+h3 a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: #1167a8;
+}
+
+#article-container {
+  float: left;
+  width: 700px;
+}
+
+#article-summery {
+  width: 240px;
+  color: #5a5a5a;
+  text-align: justify;
+  float: left;
+}
+
+.r-clock {
+  padding-right: 3px;
+}
+
+#article-summery a {
+  color: #a91717;
+  text-decoration: none;
+  border-left: 2px solid #cccccc;
+  padding-left: 5px;
+}
+
+#article-summery a:hover {
+  color: #1167a8;
+}
+
+#main-article-img {
+  width: 400px;
+  margin-left: 20px;
+}
